@@ -1,0 +1,97 @@
+/* Use Linear Icon styles */
+@use 'linearicon-style.css';
+
+/* Use DIN Round Pro font */
+
+@font-face {
+  font-family: 'din-round-pro';
+  src: url('../fonts/din-round-pro/dinroundpro.otf');
+}
+
+@font-face {
+  font-family: 'din-round-pro-black';
+  src: url('../fonts/din-round-pro/dinroundpro_black.otf');
+}
+
+@font-face {
+  font-family: 'din-round-pro-bold';
+  src: url('../fonts/din-round-pro/dinroundpro_bold.otf');
+}
+
+@font-face {
+  font-family: 'din-round-pro-light';
+  src: url('../fonts/din-round-pro/dinroundpro_light.otf');
+}
+
+@font-face {
+  font-family: 'din-round-pro-med';
+  src: url('../fonts/din-round-pro/dinroundpro_medi.otf');
+}
+
+
+$h1-font: 'din-round-pro';
+$small-display-font: 'din-round-pro-light';
+
+// Adjust font & margins for title in sidebar
+.sidebar-title > .h1 {
+  font-family: $h1-font;
+  margin: -20px 0 -10px 0 !important;
+}
+
+a > .h1:hover
+{
+  color:rgb(248, 123, 123);
+}
+
+// Hides underline ::after element in sidebar title
+.sidebar-about>a.sidebar-title::after { display: none; }
+
+
+.dl-table {
+  a {
+    @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+      text-underline-offset: .8rem;
+    }
+    @supports not ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+      padding-bottom: .45rem;
+    }
+  }
+
+  .btn, .gumroad-button  {
+    margin: 1rem 0;
+  }
+}
+
+h1, h2, h3, .h1, .h2, .h3 {
+    margin: 2rem 0 1rem;
+}
+
+/* Style the games pagination */ 
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.pagination a {
+  @extend .sidebar-nav-item;
+  color: --body-color;
+  border-bottom-color: hsla(0, 0%, 100%, .2);
+  text-decoration-color: hsla(0, 0%, 100%, .2);
+}
+
+/* Turn off cursor for hovering the date */
+.post-date>.ellipsis{
+    cursor: auto;
+}
+
+/* Reduce soacing at the bottom project pages */
+#_main #project {
+  margin-bottom: 2rem;
+}
+
+p {
+  @extend .lead
+}

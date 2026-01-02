@@ -1,0 +1,8 @@
+<div class="screen-only">
+  {% if page.button %}
+    <button class="btn btn-sm btn-primary mt1" onclick="window.open('{{ page.button.url }}')">
+      <small class="icon-link"></small>
+      {{ page.button.name | default: "Print" }}
+    </button>
+  {% endif %}
+</div>
