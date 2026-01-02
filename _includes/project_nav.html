@@ -1,0 +1,25 @@
+{% capture the_collection %}{{ page.collection }}{% endcapture %}
+{% if page.collection %}
+  {% assign document = site[the_collection] | sort: "date" | reversed %}
+{% endif %}
+
+{% for links in document %}
+  {% if links.url == page.url %}
+    {%- unless forloop.first -%}
+      {%- assign prev = prev_doc -%}
+    {%- endunless -%}
+    {%- unless forloop.last -%}
+      {%- assign next = document[forloop.index] -%}
+    {%- endunless -%}
+  {% endif %}
+  {% assign prev_doc = links %}
+{% endfor %}
+
+<nav class="pagination">
+  {% if prev %}
+    <a href="{{ prev.url }}" class="previous-link">&larr; {{ prev.title }}</a>
+  {% endif %}
+  {% if next %}
+    <a href="{{ next.url }}" class="next-link">{{ next.title }} &rarr;</a>
+  {% endif %}
+</nav>
