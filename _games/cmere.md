@@ -34,6 +34,6 @@ Play it on [itch.io](https://pencilking2002.itch.io/slime-solstice)
 
 ## Credits
 
-**Roman Sharf** - Programming and Game Design
-**Elizabeth Gearreald** - Art, Animation, Sound Effects and Music. 
+- **Roman Sharf** - Programming and Game Design
+- **Elizabeth Gearreald** - Art, Animation, Sound Effects and Music. 
 

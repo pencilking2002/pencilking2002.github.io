@@ -36,6 +36,6 @@ Play it on [itch.io](https://chaoticformula.itch.io/lick-man).
 
 ## Credits
 
-- **Roman Sharf** - Programming and 2D Graphics
+- **Roman Sharf** - Programming and UI/2D Graphics
 - **[Wen Chew](https://www.wenchew.com/)** - Sound Design and Music
 - **[Bungo Studios](https://bungostudios.com/)** - Programming, Character Modeling, Rigging and Animation.
