@@ -1,5 +1,5 @@
 ---
-title: Catamarble Lunacy
+title: Katamarble Lunacy
 layout: project
 date: Jan 2018
 links:
@@ -43,6 +43,7 @@ In this jam game, you play as a marble traversing a luminescent world. Explore, 
 
 ## Credits
 
+- **Roman Sharf** - Programming and Tech Art
 - **Jenna Dancel** - 3D Art
 - **Sam Eng** - Programming
 - **Adriano Vale** - Programming

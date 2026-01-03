@@ -30,7 +30,9 @@ image:
 
 ## Overview 
 
-In this point-and-click cyberpunk physics puzzler, bring the all-seeing Watchers together into sleeper cells to connect and share data. Navigate around obstacles and enemies to create a comprehensive surveillance network. Play it on [itch.io](https://deidre.itch.io/sleepwatchers).
+In this point-and-click cyberpunk physics puzzler, bring the all-seeing Watchers together into sleeper cells to connect and share data. Navigate around obstacles and enemies to create a comprehensive surveillance network. 
+
+Play it on [itch.io](https://deidre.itch.io/sleepwatchers).
 
 ## Camera Feature
 
@@ -42,5 +44,6 @@ Want to get a glimpse of how this game was developed? Read [this article](https:
 
 ## Credits
 
+- **Roman Sharf** - Programming and Tech Art
 - **Deidre Witan** - Game Design
 - **Jenna Dancel** - 3D art and Visual Effects

@@ -29,12 +29,13 @@ image:
 
 ## Overview 
 
-Lick Man was developed for the 2024 Global Game Jam. This game is about a nice guy with a love for licking random objects. His neck is long and his lick is strong. He likes to lick but he knows its wrong.
+Lick Man was developed for the 2024 Global Game Jam. This game is about a nice guy with a love for licking random objects. His neck is long and his lick is strong. He likes to lick but he knows it's wrong.
 
 Play it on [itch.io](https://chaoticformula.itch.io/lick-man).
 
 
 ## Credits
 
+- **Roman Sharf** - Programming and 2D Graphics
 - **[Wen Chew](https://www.wenchew.com/)** - Sound Design and Music
 - **[Bungo Studios](https://bungostudios.com/)** - Programming, Character Modeling, Rigging and Animation.

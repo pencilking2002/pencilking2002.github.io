@@ -6,7 +6,7 @@ featured: false
 links:
   - title: Play on itch.io
     url: https://pencilking2002.itch.io/slime-solstice
-caption: A slime based puzzle game.
+caption: A slime-based puzzle game.
 carousels:
     - images:
       - image: /assets/img/games/slime-solstice/04.png
@@ -34,8 +34,11 @@ image:
 
 ## Overview 
 
-Solve puzzles to help slimes make their way through a winter wonderland! Do you have what it takes to be the greatest of all slime!? Play it on [itch.io](https://pencilking2002.itch.io/slime-solstice)
+Solve puzzles to help slimes make their way through a winter wonderland! Do you have what it takes to be the greatest of all slime!? 
+
+Play it on [itch.io](https://pencilking2002.itch.io/slime-solstice)
 
 ## Credits
 
+- **Roman Sharf** - Programming, Tech Art and Writing
 - **Jenna Dancel** - 3D Art and Level Design

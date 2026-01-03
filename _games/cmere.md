@@ -28,9 +28,12 @@ image:
 
 ## Overview 
 
-Get ready to loop up some cows and barrerls in this retro gameboy inspired hoot of a game! C'MERE was developed for the 2025 GMTK Game Jam with the theme of 'loop'. Play it on [itch.io](https://pencilking2002.itch.io/slime-solstice)
+Get ready to loop up some cows and barrerls in this retro gameboy inspired hoot of a game! C'MERE was developed for the 2025 GMTK Game Jam with the theme of 'loop'. 
+
+Play it on [itch.io](https://pencilking2002.itch.io/slime-solstice)
 
 ## Credits
 
+**Roman Sharf** - Programming and Game Design
 **Elizabeth Gearreald** - Art, Animation, Sound Effects and Music. 
 
