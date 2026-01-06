@@ -87,6 +87,12 @@ h1, h2, h3, .h1, .h2, .h3 {
     cursor: auto;
 }
 
+/* Utility classes */
+.mb2 { margin-bottom: 2rem; }
+.col2 { columns:2; }
+.col3 { columns: 3; }
+.col4 { columns: 2; }
+
 /* Reduce soacing at the bottom project pages */
 #_main #project {
   margin-bottom: 2rem;
@@ -137,30 +143,14 @@ header .note-sm > .mb2:last-child {
   margin-bottom: 0 !important;
 }
 
-.mb2 {
-  margin-bottom: 2rem;
-}
 
 header a.note-btn:hover { 
-    background-color: rgb(6, 139, 117) !important;
-}
-
-.col2 {
-    columns:2;
-}
-
-.col3 {
-  columns: 3;
-}
-
-.col4 {
-  columns: 2;
+  background-color: rgb(6, 139, 117) !important;
 }
 
 @media (min-width: 20em) {
   article#project > header > .note-sm {
     margin-top: 40px;
-    //columns:2;
     padding:0 !important;
     width: 100% !important;
     margin: 3rem 0 .5rem !important;
