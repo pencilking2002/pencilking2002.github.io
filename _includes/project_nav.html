@@ -15,11 +15,16 @@
   {% assign prev_doc = links %}
 {% endfor %}
 
+{% if next == null %}
+<nav class="pagination" style="justify-content:flex-end">
+{% else %}
 <nav class="pagination">
-  {% if prev %}
-    <a href="{{ prev.url }}" class="previous-link">&larr; {{ prev.title }}</a>
-  {% endif %}
-  {% if next %}
-    <a href="{{ next.url }}" class="next-link">{{ next.title }} &rarr;</a>
-  {% endif %}
+{% endif %}
+
+{% if next %}
+  <a href="{{ next.url }}" class="next-link">&larr; {{ next.title }} </a>
+{% endif %}
+{% if prev %}
+  <a href="{{ prev.url }}" class="previous-link">{{ prev.title }} &rarr;</a>
+{% endif %}
 </nav>
