@@ -110,7 +110,12 @@ a.note-btn {
   //margin-top:20px;
 }
 
-header .note-sm span {
+header .note-sm {
+  display:inline-block;
+  font-size: larger;
+}
+
+header .note-sm, span {
   display:inline-block;
 }
 
