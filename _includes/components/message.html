@@ -7,7 +7,7 @@
         
       {% if include.text.devs %}
         {% for dev in include.text.devs %}
-          <span>
+        
               <span><b>{{ dev.name | markdownify | replace:"<p>","" | replace:"</p>","" }}</b></span>
             {% if dev.company %}
               {% if dev.link %}
@@ -16,12 +16,8 @@
                 <span class="sm">{{ dev.company | markdownify | replace:"<p>","" | replace:"</p>","" }}</span>
               {% endif %}
             {% endif %}
-            <span class="sm">{{ dev.role | markdownify | replace:"<p>","" | replace:"</p>","" }}</span>
-          </span>
-          
-          {% unless forloop.last %}
-            <br><br> 
-          {% endunless %}
+            <span class="sm mb2">{{ dev.role | markdownify | replace:"<p>","" | replace:"</p>","" }}</span>
+      
         {% endfor %}
       {% endif %}
       {% if include.text.button %}

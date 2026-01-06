@@ -113,13 +113,17 @@ a.note-btn {
 header .note-sm span {
   display:inline-block;
 }
-header .note-sm span > span {
+header .note-sm span {
   display:block;
 }
 
 header .note-sm span.sm
 {
   font-size: smaller;
+}
+
+.mb2 {
+  margin-bottom: 2rem;
 }
 
 header a.note-btn:hover { 
