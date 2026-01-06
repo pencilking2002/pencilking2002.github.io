@@ -3,9 +3,9 @@
 
 
   {% unless include.hide %}
-    <p class="note-sm" {% if include.property %}property="{{ include.property }}"{% endif %}>
-        
-      {% if include.text.devs %}
+    {% if include.text.devs %}
+      {% assign col_class = " col" | append: include.text.devs.size | string %}
+      <p class="note-sm{{ col_class }}" {% if include.property %}property="{{ include.property }}"{% endif %}>
         {% for dev in include.text.devs %}
               <span class="lg"><b>{{ dev.name | markdownify | replace:"<p>","" | replace:"</p>","" }}</b></span>
             {% if dev.company %}

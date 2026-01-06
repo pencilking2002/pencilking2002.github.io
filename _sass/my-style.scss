@@ -145,10 +145,22 @@ header a.note-btn:hover {
     background-color: rgb(6, 139, 117) !important;
 }
 
+.col2 {
+    columns:2;
+}
+
+.col3 {
+  columns: 3;
+}
+
+.col4 {
+  columns: 2;
+}
+
 @media (min-width: 20em) {
   article#project > header > .note-sm {
     margin-top: 40px;
-    columns:2;
+    //columns:2;
     padding:0 !important;
     width: 100% !important;
     margin: 3rem 0 .5rem !important;
