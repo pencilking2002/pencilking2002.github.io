@@ -144,6 +144,23 @@ header a.note-btn:hover {
     background-color: rgb(6, 139, 117) !important;
 }
 
+@media (min-width: 42em) {
+  article#project > header > .note-sm {
+    margin-top: 40px;
+    columns:2;
+    padding:0;
+    width: 100% !important;
+    margin: 3rem 0 .5rem;
+  }
+  article#project > header > .note-sm:before {
+    top: -20px;
+  }
+
+  header a.note-btn {
+    margin-top:10px;
+  }
+}
+
 @media screen and (min-width: 120rem) {
   article#project > header > .note-sm {
     top: 110px;
@@ -162,20 +179,5 @@ header a.note-btn:hover {
 
   header a.note-btn {
     margin-top:20px !important;
-  }
-}
-
-@media (min-width: 42em) {
-  article#project > header > .note-sm {
-    margin-top: 40px;
-    columns:2;
-    padding:0;
-  }
-  article#project > header > .note-sm:before {
-    top: -20px;
-  }
-
-  header a.note-btn {
-    margin-top:10px;
   }
 }
