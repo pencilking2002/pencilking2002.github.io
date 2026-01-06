@@ -92,6 +92,67 @@ h1, h2, h3, .h1, .h2, .h3 {
   margin-bottom: 2rem;
 }
 
-p {
-  @extend .lead
+p, .note-sm {
+  @extend .lead;
+  border:none;
+}
+
+a.note-btn {
+  width:100%;
+  display: block;
+  column-span: all;
+  background-color: rgb(1, 121, 101);
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration:none;
+  font-weight: bold;
+  text-align: center;
+  //margin-top:20px;
+}
+
+header .note-sm span {
+  display:inline-block;
+}
+header .note-sm span > span {
+  display:block;
+}
+
+header .note-sm span.sm
+{
+  font-size: smaller;
+}
+
+header a.note-btn:hover { 
+    background-color: rgb(6, 139, 117) !important;
+}
+
+@media screen and (min-width: 120rem) {
+  article#project > header > .note-sm {
+    top: 110px;
+    height: fit-content !important;
+    columns:1 !important;
+  }
+
+  article#project > header > .note-sm:before {
+    top: -30px;
+  }
+
+  header a.note-btn {
+    margin-top:20px !important;
+  }
+}
+
+@media (min-width: 42em) {
+  article#project > header > .note-sm {
+    margin-top: 40px;
+    columns:2;
+    padding:0;
+  }
+  article#project > header > .note-sm:before {
+    top: -20px;
+  }
+
+  header a.note-btn {
+    margin-top:10px;
+  }
 }

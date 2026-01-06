@@ -56,7 +56,6 @@ layout: base
         </span>
       {% endif %}
     </p>
-    
     {% if page.show_images %}
         {% assign screenshot = project.screenshot | default:project.image %}
         <div class="img-wrapper lead aspect-ratio sixteen-nine {% unless screenshot %}fallback-img{% endunless %}">
@@ -72,13 +71,13 @@ layout: base
         {% endif %}
         </div>
     {% endif %}
-
-    {% include components/message.html text=project.description hide=page.hide_description property="description" alt="" %}
+    
+    {% include components/message.html text=project.game_meta hide=page.hide_description property="description" alt="" %}
     {% if project.caption %}<meta property="disambiguatingDescription" content="{{ project.caption }}"/>{% endif %}
   </header>
 
   {{ content }}
-</article>
+  </article>
 
 {% assign addons = page.addons | default:site.hydejack.project_addons %}
 {% unless addons %}{% assign addons = "about,newsletter,other" | split:"," %}{% endunless %}

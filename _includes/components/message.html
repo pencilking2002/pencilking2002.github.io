@@ -1,0 +1,34 @@
+{% assign alt = include.alt %}
+{% unless alt %}{% capture alt %}<div class="hr pb0"></div>{% endcapture %}{% endunless %}
+
+
+  {% unless include.hide %}
+    <p class="{{ include.class | default:'note-sm' }}" {% if include.property %}property="{{ include.property }}"{% endif %}>
+        
+      {% if include.text.devs %}
+        {% for dev in include.text.devs %}
+          <span>
+              <span><b>{{ dev.name | markdownify | replace:"<p>","" | replace:"</p>","" }}</b></span>
+            {% if dev.company %}
+              {% if dev.link %}
+                <span class="sm"><a href={{ dev.link | markdownify | replace:"<p>","" | replace:"</p>","" }} target="_blank">{{ dev.company }}</a></span>
+              {% else %}
+                <span class="sm">{{ dev.company | markdownify | replace:"<p>","" | replace:"</p>","" }}</span>
+              {% endif %}
+            {% endif %}
+            <span class="sm">{{ dev.role | markdownify | replace:"<p>","" | replace:"</p>","" }}</span>
+          </span>
+          
+          {% unless forloop.last %}
+            <br><br> 
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
+      {% if include.text.button %}
+        <a class="note-btn" href="{{ include.text.button.link }}" target='_blank'>{{ include.text.button.text }}</a>
+      {% endif %}
+    </p>
+{% else %}
+  {{ alt }}
+{% endunless %}
+

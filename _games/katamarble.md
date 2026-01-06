@@ -2,9 +2,6 @@
 title: Katamarble Lunacy
 layout: project
 date: Jan 2018
-links:
-  - title: Download and Play
-    url: https://drive.google.com/file/d/1rub92UZhVT-sMdmriR23GhiY3MA6zAFx/view?usp=sharing
 featured: false
 caption: You are a speedy marble rolling through a colorful environment.
 show_images: false
@@ -28,7 +25,28 @@ carousels:
           title: Marble heading towards a speed ramp
         - image: /assets/img/games/catamarble/marble-enlarge.gif
           title: Marble colliding a meteor and enlarging in size
-
+game_meta:
+  devs:
+    - dev:
+      name: Roman Sharf
+      role: Programming and Tech Art
+      company: Chaotic Formula
+    - dev:
+      name: Jenna Dancel
+      role: 3D Art
+    - dev: 
+      name: Sam Eng
+      role: Programming
+      company: skatestory.com
+      link: https://skatestory.com/
+    - dev: 
+      name: Adriano Vale
+      company: orcpunk.com
+      role: Programming
+      link: https://orcpunk.com/
+  button:
+    text: Download & Play
+    link: https://drive.google.com/file/d/1rub92UZhVT-sMdmriR23GhiY3MA6zAFx/view?usp=sharing
 
 
 image:
@@ -40,10 +58,3 @@ image:
 ## Overview 
 
 In this jam game, you play as a marble traversing a luminescent world. Explore, gain speed and grow in size.
-
-## Credits
-
-- **Roman Sharf** - Programming and Tech Art
-- **Jenna Dancel** - 3D Art
-- **Sam Eng** - Programming
-- **Adriano Vale** - Programming

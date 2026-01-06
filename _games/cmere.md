@@ -3,9 +3,6 @@ title: C'MERE
 layout: project
 date: Jan 2025
 featured: false
-links:
-  - title: Play on itch.io
-    url: https://chaoticformula.itch.io/cmere
 caption: Loop up cows and barrels.
 carousels:
     - images:
@@ -22,18 +19,22 @@ carousels:
 
 image:
   path:    /assets/img/games/cmere/04.png
+game_meta:
+  devs:
+    - dev:
+      name: Roman Sharf
+      company: Chaotic Formula
+      role: Programming and Game Design
+    - dev:
+      name: Elizabeth Gearreald
+      role: Art, Animation, Sound Effects & Music
+  button:
+    text: Play on itch.io
+    link: https://chaoticformula.itch.io/cmere
 ---
 
 {% include carousel.html unit="px" number ="1" %}
 
 ## Overview 
 
-Get ready to loop up some cows and barrerls in this retro gameboy inspired hoot of a game! C'MERE was developed for the 2025 GMTK Game Jam with the theme of 'loop'. 
-
-Play it on [itch.io](https://pencilking2002.itch.io/slime-solstice)
-
-## Credits
-
-- **Roman Sharf** - Programming and Game Design
-- **Elizabeth Gearreald** - Art, Animation, Sound Effects and Music. 
-
+Get ready to loop up some cows and barrerls in this retro gameboy inspired hoot of a game! C'MERE was developed for the 2025 Game Maker's Toolkit [Game Jam](https://itch.io/jam/gmtk-2025) with the theme of "loop".
