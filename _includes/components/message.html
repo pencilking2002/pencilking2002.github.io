@@ -16,7 +16,14 @@
                 <span class="sm">{{ dev.company | markdownify | replace:"<p>","" | replace:"</p>","" }}</span>
               {% endif %}
             {% endif %}
-            <span class="sm mb2">{{ dev.role | markdownify | replace:"<p>","" | replace:"</p>","" }}</span>
+
+            {% if forloop.last %}
+              {% assign mb = "" %}
+            {% else %}
+              {% assign mb = " mb2" %}
+            {% endif %}
+            
+            <span class="sm{{ mb }}">{{ dev.role | markdownify | replace:"<p>","" | replace:"</p>","" }}</span>
       
         {% endfor %}
       {% endif %}

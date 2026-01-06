@@ -122,6 +122,10 @@ header .note-sm span.sm
   font-size: smaller;
 }
 
+header .note-sm > .mb2:last-child {
+  margin-bottom: 0 !important;
+}
+
 .mb2 {
   margin-bottom: 2rem;
 }
