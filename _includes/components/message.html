@@ -3,12 +3,11 @@
 
 
   {% unless include.hide %}
-    <p class="{{ include.class | default:'note-sm' }}" {% if include.property %}property="{{ include.property }}"{% endif %}>
+    <p class="note-sm" {% if include.property %}property="{{ include.property }}"{% endif %}>
         
       {% if include.text.devs %}
         {% for dev in include.text.devs %}
-        
-              <span><b>{{ dev.name | markdownify | replace:"<p>","" | replace:"</p>","" }}</b></span>
+              <span class="lg"><b>{{ dev.name | markdownify | replace:"<p>","" | replace:"</p>","" }}</b></span>
             {% if dev.company %}
               {% if dev.link %}
                 <span class="sm"><a href={{ dev.link | markdownify | replace:"<p>","" | replace:"</p>","" }} target="_blank">{{ dev.company }}</a></span>
@@ -22,7 +21,7 @@
             {% else %}
               {% assign mb = " mb2" %}
             {% endif %}
-            
+
             <span class="sm{{ mb }}">{{ dev.role | markdownify | replace:"<p>","" | replace:"</p>","" }}</span>
       
         {% endfor %}

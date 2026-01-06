@@ -112,10 +112,14 @@ a.note-btn {
 
 header .note-sm span {
   display:inline-block;
-  font-size: larger !important;
 }
+
 header .note-sm span {
   display:block;
+}
+
+header .note-sm span.lg {
+  font-size: larger !important;
 }
 
 header .note-sm span.sm
