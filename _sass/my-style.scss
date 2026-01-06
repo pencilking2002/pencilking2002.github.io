@@ -168,9 +168,8 @@ header a.note-btn:hover {
     columns:1 !important;
     position: absolute !important;
     right: -24rem;
-    width: 21rem;
+    width: 21rem !important;
     bottom: 0;
-    margin-bottom: 0;
   }
 
   article#project > header > .note-sm:before {
